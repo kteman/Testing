@@ -1,0 +1,11 @@
+framework module TestEvolutionOld {
+  umbrella header "TestEvolutionOld.h"
+
+  export *
+  module * { export * }
+}
+
+module TestEvolutionOld.Swift {
+    header "TestEvolutionOld-Swift.h"
+    requires objc
+}
